@@ -1,0 +1,95 @@
+/* BODY */
+.body-home {
+	background: #2768FF;
+	background: linear-gradient(to bottom right, #2768FF, #3A1F7F);
+	min-height: 100vh;
+	margin: 0;
+}
+.container {
+	min-height: 82vh;
+	margin: 0;
+}
+.container1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5%;
+}
+.body-home, .black-fill, .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.black-fill {
+	background: rgba(0,0,0, 0.4);
+	flex-grow: 0.5;
+	width: 60vw;
+	min-height: 70vh;
+}
+.black-fill img {
+	height: 25vh;
+	margin-bottom: 20px;
+}
+hr {
+	border: 2px solid #2768FF;
+}
+
+/* MYGTUKAI */
+.mygt {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.myg, .myg1, .grizti {
+	opacity: 0.9;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 15px;
+	height: 40px;
+	width: 150px;
+	margin: 0px 5px;
+	cursor: pointer;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s;
+}
+.myg, .myg1 { background-color:#074fd4; }
+.grizti { background-color:#0b3a91; }
+.myg { margin-top: 10%; }
+.myg1 { margin-top: none; }
+.myg:hover, .myg1:hover, .grizti:hover { 
+	opacity: 1;
+	width: 180px;
+}
+.add {
+	width: 200px; 
+	height: 60px; 
+	margin-bottom: 10px;
+}
+.add:hover {
+	width: 240px;
+}
+
+/* FORMOS, TEKSTAI */
+.form-la { color:white; }
+.form-la, .form-la select, .pap {
+	font-family: sans-serif; 
+	font-size: 15px;
+}
+.pap {
+	background-color: orange;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+.form-w {
+	max-width: 600px;
+	width: 100%;
+}
+
+/* NAVIGACIJA */
+.navbar { background: #0b4dc7; }
+.navbar * { margin: 0px 10px; }

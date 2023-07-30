@@ -10,6 +10,7 @@
     3. [Teacher's folder](#techer)
 5. [Implemented PHP functions](#functions)
 6. [Data Model Description](#datamodel)
+7. [GUI](#gui)
   
 ## The project's goal and a brief description: <a name="introduction"></a>
 During my coursework, I created an electronic diary. It is a simple online platform designed to
@@ -113,3 +114,15 @@ Password: 456
 |students                  |To store electronic diary student data (student ID, first name, last name, username, password, email, class).|
 |gradings                  |To store data about the grades assigned by teachers to students (grade ID, grade value, student ID, subject ID).|
 |subjects                  |To store data about the subjects teachers teach (subject ID, subject name).|
+
+
+## GUI: <a name="gui"></a>
+
+![login](https://github.com/vestinabert/StudentDiary/assets/127593981/5af26a8d-3be3-481f-8708-8c0459b9425a) <br><br>
+![mainpage](https://github.com/vestinabert/StudentDiary/assets/127593981/ac974a9d-44b6-4435-891c-28b162e2499f) <br><br>
+![teacherslist](https://github.com/vestinabert/StudentDiary/assets/127593981/cb13de78-978f-4afa-87b6-2a287b071fca) <br><br>
+![addingstudents](https://github.com/vestinabert/StudentDiary/assets/127593981/0d82726b-9e6b-4a42-97e0-5a681cb0e2b1) <br><br>
+![changepassword](https://github.com/vestinabert/StudentDiary/assets/127593981/4a39e172-8786-461f-919e-112491e03709) <br><br>
+![update](https://github.com/vestinabert/StudentDiary/assets/127593981/19a4a603-2a84-4cc3-881f-8318aed9f2de) <br><br>
+![grades2](https://github.com/vestinabert/StudentDiary/assets/127593981/1eac98c2-d925-4b3b-a734-cba4cb9a03bf)<br><br>
+![charts](https://github.com/vestinabert/StudentDiary/assets/127593981/97832475-6de0-4b91-854e-32b9629a94d0)
